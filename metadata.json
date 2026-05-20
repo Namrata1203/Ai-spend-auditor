@@ -1,0 +1,6 @@
+{
+  "name": "AI Spend Auditor",
+  "description": "An interactive, self-serve auditor that reviews startup AI application spend, identifies over-provisioning and redundancies, and surfaces real-time discount opportunities through Credex AI infrastructure credits.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
