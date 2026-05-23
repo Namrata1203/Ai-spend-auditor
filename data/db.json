@@ -1,0 +1,1127 @@
+{
+  "reports": {
+    "mgdmjiepf": {
+      "id": "mgdmjiepf",
+      "companyName": "Anonymous Startup",
+      "teamSize": 3,
+      "primaryUseCase": "coding",
+      "tools": [
+        {
+          "toolId": "cursor",
+          "planId": "pro",
+          "seats": 3
+        },
+        {
+          "toolId": "copilot",
+          "planId": "business",
+          "seats": 3
+        },
+        {
+          "toolId": "claude",
+          "planId": "pro",
+          "seats": 3
+        },
+        {
+          "toolId": "anthropic_api",
+          "planId": "payg",
+          "seats": 3,
+          "customSpend": 100
+        }
+      ],
+      "results": [
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Pro",
+          "currentSeats": 3,
+          "currentSpend": 60,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Business",
+          "currentSeats": 3,
+          "currentSpend": 57,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Business",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 57,
+          "savingsAnnual": 684,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        },
+        {
+          "toolId": "claude",
+          "toolName": "Claude",
+          "currentPlanName": "Pro",
+          "currentSeats": 3,
+          "currentSpend": 60,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "anthropic_api",
+          "toolName": "Anthropic API",
+          "currentPlanName": "Pay-as-you-go",
+          "currentSeats": 3,
+          "currentSpend": 100,
+          "recommendedPlanId": "payg",
+          "recommendedPlanName": "Pay-as-you-go",
+          "recommendedSeats": 3,
+          "recommendedSpend": 75,
+          "savingsMonthly": 25,
+          "savingsAnnual": 300,
+          "reason": "Save 25% on raw token bills using Credex pre-purchased bulk credits instead of paying retail price directly.",
+          "credexAction": "Purchase discounted bulk API credits via Credex and save 25% instantly.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 277,
+      "totalRecommendedSpend": 195,
+      "totalSavingsMonthly": 82,
+      "totalSavingsAnnual": 984,
+      "createdAt": "2026-05-25T09:16:48.277Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 92,
+        "industryAveragePerSeat": 55,
+        "percentComparison": 67,
+        "comparisonStatus": "above"
+      },
+      "cfoSummary": "Our financial diagnostic of Anonymous Startup reveals clear overspending of $82/mo across your core stack, particularly within GitHub Copilot and Anthropic API. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $984/year back into your operational margins."
+    },
+    "bg09qziks": {
+      "id": "bg09qziks",
+      "companyName": "Infosys",
+      "teamSize": 50,
+      "primaryUseCase": "research",
+      "tools": [
+        {
+          "toolId": "copilot",
+          "planId": "enterprise",
+          "seats": 50
+        },
+        {
+          "toolId": "cursor",
+          "planId": "enterprise",
+          "seats": 50
+        },
+        {
+          "toolId": "claude",
+          "planId": "team",
+          "seats": 50
+        },
+        {
+          "toolId": "gemini",
+          "planId": "advanced",
+          "seats": 50
+        },
+        {
+          "toolId": "anthropic_api",
+          "planId": "payg",
+          "seats": 50,
+          "customSpend": 100
+        }
+      ],
+      "results": [
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Enterprise",
+          "currentSeats": 50,
+          "currentSpend": 1950,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Enterprise",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 1950,
+          "savingsAnnual": 23400,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        },
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Enterprise",
+          "currentSeats": 50,
+          "currentSpend": 5000,
+          "recommendedPlanId": "enterprise",
+          "recommendedPlanName": "Enterprise",
+          "recommendedSeats": 50,
+          "recommendedSpend": 5000,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "claude",
+          "toolName": "Claude",
+          "currentPlanName": "Team",
+          "currentSeats": 50,
+          "currentSpend": 1250,
+          "recommendedPlanId": "team",
+          "recommendedPlanName": "Team",
+          "recommendedSeats": 50,
+          "recommendedSpend": 1250,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "gemini",
+          "toolName": "Gemini",
+          "currentPlanName": "Advanced",
+          "currentSeats": 50,
+          "currentSpend": 1000,
+          "recommendedPlanId": "advanced",
+          "recommendedPlanName": "Advanced",
+          "recommendedSeats": 50,
+          "recommendedSpend": 1000,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "anthropic_api",
+          "toolName": "Anthropic API",
+          "currentPlanName": "Pay-as-you-go",
+          "currentSeats": 50,
+          "currentSpend": 100,
+          "recommendedPlanId": "payg",
+          "recommendedPlanName": "Pay-as-you-go",
+          "recommendedSeats": 50,
+          "recommendedSpend": 75,
+          "savingsMonthly": 25,
+          "savingsAnnual": 300,
+          "reason": "Save 25% on raw token bills using Credex pre-purchased bulk credits instead of paying retail price directly.",
+          "credexAction": "Purchase discounted bulk API credits via Credex and save 25% instantly.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 9300,
+      "totalRecommendedSpend": 7325,
+      "totalSavingsMonthly": 1975,
+      "totalSavingsAnnual": 23700,
+      "createdAt": "2026-05-25T09:38:47.548Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 186,
+        "industryAveragePerSeat": 25,
+        "percentComparison": 644,
+        "comparisonStatus": "above"
+      },
+      "aiSummary": "Our financial diagnostic of Infosys reveals clear overspending of $1975/mo across your core stack, particularly within GitHub Copilot and Anthropic API. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $23700/year back into your operational margins."
+    },
+    "z4cukjjgz": {
+      "id": "z4cukjjgz",
+      "companyName": "Anonymous Startup",
+      "teamSize": 3,
+      "primaryUseCase": "coding",
+      "tools": [
+        {
+          "toolId": "cursor",
+          "planId": "pro",
+          "seats": 3
+        },
+        {
+          "toolId": "copilot",
+          "planId": "business",
+          "seats": 3
+        },
+        {
+          "toolId": "claude",
+          "planId": "team",
+          "seats": 3
+        }
+      ],
+      "results": [
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Pro",
+          "currentSeats": 3,
+          "currentSpend": 60,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Business",
+          "currentSeats": 3,
+          "currentSpend": 57,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Business",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 57,
+          "savingsAnnual": 684,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        },
+        {
+          "toolId": "claude",
+          "toolName": "Claude",
+          "currentPlanName": "Team",
+          "currentSeats": 3,
+          "currentSpend": 125,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 65,
+          "savingsAnnual": 780,
+          "reason": "Claude Team plan has a 5-seat minimum ($125/mo). Moving your 3 users to individual Claude Pro plans ($20/mo each) stops you from paying for 2 ghost seats.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 242,
+      "totalRecommendedSpend": 120,
+      "totalSavingsMonthly": 122,
+      "totalSavingsAnnual": 1464,
+      "createdAt": "2026-05-25T09:38:50.076Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 81,
+        "industryAveragePerSeat": 61,
+        "percentComparison": 33,
+        "comparisonStatus": "above"
+      },
+      "aiSummary": "Our financial diagnostic of Anonymous Startup reveals clear overspending of $122/mo across your core stack, particularly within GitHub Copilot and Claude. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $1464/year back into your operational margins."
+    },
+    "u0x8iiaon": {
+      "id": "u0x8iiaon",
+      "companyName": "Anonymous Startup",
+      "teamSize": 3,
+      "primaryUseCase": "coding",
+      "tools": [
+        {
+          "toolId": "cursor",
+          "planId": "pro",
+          "seats": 3
+        },
+        {
+          "toolId": "copilot",
+          "planId": "business",
+          "seats": 3
+        },
+        {
+          "toolId": "claude",
+          "planId": "team",
+          "seats": 3
+        }
+      ],
+      "results": [
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Pro",
+          "currentSeats": 3,
+          "currentSpend": 60,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Business",
+          "currentSeats": 3,
+          "currentSpend": 57,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Business",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 57,
+          "savingsAnnual": 684,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        },
+        {
+          "toolId": "claude",
+          "toolName": "Claude",
+          "currentPlanName": "Team",
+          "currentSeats": 3,
+          "currentSpend": 125,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 65,
+          "savingsAnnual": 780,
+          "reason": "Claude Team plan has a 5-seat minimum ($125/mo). Moving your 3 users to individual Claude Pro plans ($20/mo each) stops you from paying for 2 ghost seats.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 242,
+      "totalRecommendedSpend": 120,
+      "totalSavingsMonthly": 122,
+      "totalSavingsAnnual": 1464,
+      "createdAt": "2026-05-25T09:38:51.984Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 81,
+        "industryAveragePerSeat": 60,
+        "percentComparison": 35,
+        "comparisonStatus": "above"
+      },
+      "aiSummary": "Our financial diagnostic of Anonymous Startup reveals clear overspending of $122/mo across your core stack, particularly within GitHub Copilot and Claude. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $1464/year back into your operational margins."
+    },
+    "5fjznnhc6": {
+      "id": "5fjznnhc6",
+      "companyName": "Anonymous Startup",
+      "teamSize": 3,
+      "primaryUseCase": "coding",
+      "tools": [
+        {
+          "toolId": "cursor",
+          "planId": "pro",
+          "seats": 3
+        },
+        {
+          "toolId": "copilot",
+          "planId": "business",
+          "seats": 3
+        },
+        {
+          "toolId": "claude",
+          "planId": "team",
+          "seats": 3
+        }
+      ],
+      "results": [
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Pro",
+          "currentSeats": 3,
+          "currentSpend": 60,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Business",
+          "currentSeats": 3,
+          "currentSpend": 57,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Business",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 57,
+          "savingsAnnual": 684,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        },
+        {
+          "toolId": "claude",
+          "toolName": "Claude",
+          "currentPlanName": "Team",
+          "currentSeats": 3,
+          "currentSpend": 125,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 65,
+          "savingsAnnual": 780,
+          "reason": "Claude Team plan has a 5-seat minimum ($125/mo). Moving your 3 users to individual Claude Pro plans ($20/mo each) stops you from paying for 2 ghost seats.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 242,
+      "totalRecommendedSpend": 120,
+      "totalSavingsMonthly": 122,
+      "totalSavingsAnnual": 1464,
+      "createdAt": "2026-05-25T09:38:53.822Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 81,
+        "industryAveragePerSeat": 60,
+        "percentComparison": 35,
+        "comparisonStatus": "above"
+      },
+      "aiSummary": "Our financial diagnostic of Anonymous Startup reveals clear overspending of $122/mo across your core stack, particularly within GitHub Copilot and Claude. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $1464/year back into your operational margins."
+    },
+    "cmnjbaslk": {
+      "id": "cmnjbaslk",
+      "companyName": "Test Startup",
+      "teamSize": 3,
+      "primaryUseCase": "coding",
+      "tools": [
+        {
+          "toolId": "cursor",
+          "planId": "pro",
+          "seats": 3
+        },
+        {
+          "toolId": "copilot",
+          "planId": "business",
+          "seats": 3
+        }
+      ],
+      "results": [
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Pro",
+          "currentSeats": 3,
+          "currentSpend": 60,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Business",
+          "currentSeats": 3,
+          "currentSpend": 57,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Business",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 57,
+          "savingsAnnual": 684,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 117,
+      "totalRecommendedSpend": 60,
+      "totalSavingsMonthly": 57,
+      "totalSavingsAnnual": 684,
+      "createdAt": "2026-05-25T09:39:31.767Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 39,
+        "industryAveragePerSeat": 60,
+        "percentComparison": 35,
+        "comparisonStatus": "below"
+      },
+      "aiSummary": "Our financial diagnostic of Test Startup reveals clear overspending of $57/mo across your core stack, particularly within GitHub Copilot. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $684/year back into your operational margins."
+    },
+    "9vxj4udjc": {
+      "id": "9vxj4udjc",
+      "companyName": "Test Startup",
+      "teamSize": 3,
+      "primaryUseCase": "coding",
+      "tools": [
+        {
+          "toolId": "cursor",
+          "planId": "pro",
+          "seats": 3
+        },
+        {
+          "toolId": "copilot",
+          "planId": "business",
+          "seats": 3
+        }
+      ],
+      "results": [
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Pro",
+          "currentSeats": 3,
+          "currentSpend": 60,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Business",
+          "currentSeats": 3,
+          "currentSpend": 57,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Business",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 57,
+          "savingsAnnual": 684,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 117,
+      "totalRecommendedSpend": 60,
+      "totalSavingsMonthly": 57,
+      "totalSavingsAnnual": 684,
+      "createdAt": "2026-05-25T09:41:16.354Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 39,
+        "industryAveragePerSeat": 58,
+        "percentComparison": 33,
+        "comparisonStatus": "below"
+      },
+      "cfoSummary": "Our financial diagnostic of Test Startup reveals clear overspending of $57/mo across your core stack, particularly within GitHub Copilot. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $684/year back into your operational margins."
+    },
+    "bc7lp0u7k": {
+      "id": "bc7lp0u7k",
+      "companyName": "infosys",
+      "teamSize": 28,
+      "primaryUseCase": "coding",
+      "tools": [
+        {
+          "toolId": "cursor",
+          "planId": "pro",
+          "seats": 28
+        },
+        {
+          "toolId": "copilot",
+          "planId": "business",
+          "seats": 28
+        },
+        {
+          "toolId": "claude",
+          "planId": "team",
+          "seats": 28
+        }
+      ],
+      "results": [
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Pro",
+          "currentSeats": 28,
+          "currentSpend": 560,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 28,
+          "recommendedSpend": 560,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Business",
+          "currentSeats": 28,
+          "currentSpend": 532,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Business",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 532,
+          "savingsAnnual": 6384,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        },
+        {
+          "toolId": "claude",
+          "toolName": "Claude",
+          "currentPlanName": "Team",
+          "currentSeats": 28,
+          "currentSpend": 700,
+          "recommendedPlanId": "team",
+          "recommendedPlanName": "Team",
+          "recommendedSeats": 28,
+          "recommendedSpend": 700,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        }
+      ],
+      "totalCurrentSpend": 1792,
+      "totalRecommendedSpend": 1260,
+      "totalSavingsMonthly": 532,
+      "totalSavingsAnnual": 6384,
+      "createdAt": "2026-05-25T09:41:56.578Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 64,
+        "industryAveragePerSeat": 50,
+        "percentComparison": 28,
+        "comparisonStatus": "above"
+      },
+      "cfoSummary": "Our financial diagnostic of infosys reveals clear overspending of $532/mo across your core stack, particularly within GitHub Copilot. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $6384/year back into your operational margins."
+    },
+    "dliwn8d8r": {
+      "id": "dliwn8d8r",
+      "companyName": "Anonymous Startup",
+      "teamSize": 3,
+      "primaryUseCase": "coding",
+      "tools": [
+        {
+          "toolId": "cursor",
+          "planId": "pro",
+          "seats": 3
+        },
+        {
+          "toolId": "copilot",
+          "planId": "business",
+          "seats": 3
+        },
+        {
+          "toolId": "claude",
+          "planId": "team",
+          "seats": 3
+        }
+      ],
+      "results": [
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Pro",
+          "currentSeats": 3,
+          "currentSpend": 60,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Business",
+          "currentSeats": 3,
+          "currentSpend": 57,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Business",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 57,
+          "savingsAnnual": 684,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        },
+        {
+          "toolId": "claude",
+          "toolName": "Claude",
+          "currentPlanName": "Team",
+          "currentSeats": 3,
+          "currentSpend": 125,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 65,
+          "savingsAnnual": 780,
+          "reason": "Claude Team plan has a 5-seat minimum ($125/mo). Moving your 3 users to individual Claude Pro plans ($20/mo each) stops you from paying for 2 ghost seats.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 242,
+      "totalRecommendedSpend": 120,
+      "totalSavingsMonthly": 122,
+      "totalSavingsAnnual": 1464,
+      "createdAt": "2026-05-25T09:41:59.186Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 81,
+        "industryAveragePerSeat": 57,
+        "percentComparison": 42,
+        "comparisonStatus": "above"
+      },
+      "cfoSummary": "Our financial diagnostic of Anonymous Startup reveals clear overspending of $122/mo across your core stack, particularly within GitHub Copilot and Claude. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $1464/year back into your operational margins."
+    },
+    "19y77lf82": {
+      "id": "19y77lf82",
+      "companyName": "Anonymous Startup",
+      "teamSize": 3,
+      "primaryUseCase": "coding",
+      "tools": [
+        {
+          "toolId": "cursor",
+          "planId": "pro",
+          "seats": 3
+        },
+        {
+          "toolId": "copilot",
+          "planId": "business",
+          "seats": 3
+        },
+        {
+          "toolId": "claude",
+          "planId": "team",
+          "seats": 3
+        }
+      ],
+      "results": [
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Pro",
+          "currentSeats": 3,
+          "currentSpend": 60,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Business",
+          "currentSeats": 3,
+          "currentSpend": 57,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Business",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 57,
+          "savingsAnnual": 684,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        },
+        {
+          "toolId": "claude",
+          "toolName": "Claude",
+          "currentPlanName": "Team",
+          "currentSeats": 3,
+          "currentSpend": 125,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 65,
+          "savingsAnnual": 780,
+          "reason": "Claude Team plan has a 5-seat minimum ($125/mo). Moving your 3 users to individual Claude Pro plans ($20/mo each) stops you from paying for 2 ghost seats.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 242,
+      "totalRecommendedSpend": 120,
+      "totalSavingsMonthly": 122,
+      "totalSavingsAnnual": 1464,
+      "createdAt": "2026-05-25T09:42:03.755Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 81,
+        "industryAveragePerSeat": 58,
+        "percentComparison": 40,
+        "comparisonStatus": "above"
+      },
+      "cfoSummary": "Our financial diagnostic of Anonymous Startup reveals clear overspending of $122/mo across your core stack, particularly within GitHub Copilot and Claude. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $1464/year back into your operational margins."
+    },
+    "0znsxqn33": {
+      "id": "0znsxqn33",
+      "companyName": "Test Startup",
+      "teamSize": 3,
+      "primaryUseCase": "coding",
+      "tools": [
+        {
+          "toolId": "cursor",
+          "planId": "pro",
+          "seats": 3
+        },
+        {
+          "toolId": "copilot",
+          "planId": "business",
+          "seats": 3
+        }
+      ],
+      "results": [
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Pro",
+          "currentSeats": 3,
+          "currentSpend": 60,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Business",
+          "currentSeats": 3,
+          "currentSpend": 57,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Business",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 57,
+          "savingsAnnual": 684,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 117,
+      "totalRecommendedSpend": 60,
+      "totalSavingsMonthly": 57,
+      "totalSavingsAnnual": 684,
+      "createdAt": "2026-05-25T09:47:17.017Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 39,
+        "industryAveragePerSeat": 58,
+        "percentComparison": 33,
+        "comparisonStatus": "below"
+      },
+      "cfoSummary": "Our financial diagnostic of Test Startup reveals clear overspending of $57/mo across your core stack, particularly within GitHub Copilot. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $684/year back into your operational margins."
+    },
+    "aj3tw21l5": {
+      "id": "aj3tw21l5",
+      "companyName": "Anonymous Startup",
+      "teamSize": 3,
+      "primaryUseCase": "coding",
+      "tools": [
+        {
+          "toolId": "cursor",
+          "planId": "pro",
+          "seats": 3
+        },
+        {
+          "toolId": "copilot",
+          "planId": "business",
+          "seats": 3
+        },
+        {
+          "toolId": "claude",
+          "planId": "team",
+          "seats": 3
+        }
+      ],
+      "results": [
+        {
+          "toolId": "cursor",
+          "toolName": "Cursor",
+          "currentPlanName": "Pro",
+          "currentSeats": 3,
+          "currentSpend": 60,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 0,
+          "savingsAnnual": 0,
+          "reason": "You are on an optimal plan matching your current team requirements.",
+          "isOptimal": true
+        },
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot",
+          "currentPlanName": "Business",
+          "currentSeats": 3,
+          "currentSpend": 57,
+          "recommendedPlanId": "individual",
+          "recommendedPlanName": "Business",
+          "recommendedSeats": 0,
+          "recommendedSpend": 0,
+          "savingsMonthly": 57,
+          "savingsAnnual": 684,
+          "reason": "You are paying for Cursor AND GitHub Copilot. Cursor includes a native, high-performance completion engine. Standardize on Cursor and cancel Copilot to save 100% of these seats.",
+          "isOptimal": false
+        },
+        {
+          "toolId": "claude",
+          "toolName": "Claude",
+          "currentPlanName": "Team",
+          "currentSeats": 3,
+          "currentSpend": 125,
+          "recommendedPlanId": "pro",
+          "recommendedPlanName": "Pro",
+          "recommendedSeats": 3,
+          "recommendedSpend": 60,
+          "savingsMonthly": 65,
+          "savingsAnnual": 780,
+          "reason": "Claude Team plan has a 5-seat minimum ($125/mo). Moving your 3 users to individual Claude Pro plans ($20/mo each) stops you from paying for 2 ghost seats.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 242,
+      "totalRecommendedSpend": 120,
+      "totalSavingsMonthly": 122,
+      "totalSavingsAnnual": 1464,
+      "createdAt": "2026-05-25T09:48:46.326Z",
+      "isShared": false,
+      "leadCaptured": true,
+      "isLite": false,
+      "estimatedTotalSpend": 0,
+      "benchmark": {
+        "userSpendPerSeat": 81,
+        "industryAveragePerSeat": 57,
+        "percentComparison": 42,
+        "comparisonStatus": "above"
+      },
+      "cfoSummary": "Our financial diagnostic of Anonymous Startup reveals clear overspending of $122/mo across your core stack, particularly within GitHub Copilot and Claude. By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Moving core workspace licenses into grouped structures and routing developer integrations through unified enterprise API lines lets you lock in these margins. This captures a total of $1464/year back into your operational margins.",
+      "leadInfo": {
+        "email": "soulhackersahil@gmail.com",
+        "companyName": "Anonymous Startup",
+        "role": "CFO",
+        "teamSize": 3
+      }
+    },
+    "upkzgu3z0": {
+      "id": "upkzgu3z0",
+      "companyName": "T",
+      "teamSize": 3,
+      "primaryUseCase": "coding",
+      "tools": [],
+      "results": [
+        {
+          "toolId": "copilot",
+          "toolName": "GitHub Copilot / Cursor Redundancies",
+          "currentPlanName": "Projected IDE Seats (Lite Estimate)",
+          "currentSeats": 3,
+          "currentSpend": 200,
+          "recommendedPlanId": "optimized",
+          "recommendedPlanName": "Consolidated Workspace",
+          "recommendedSeats": 3,
+          "recommendedSpend": 120,
+          "savingsMonthly": 80,
+          "savingsAnnual": 960,
+          "reason": "Duplicate IDE completion engines frequently exist among developers. Consolidating all active seats onto standard Cursor Pro plans eliminates this redundant waste immediately.",
+          "isOptimal": false
+        },
+        {
+          "toolId": "claude",
+          "toolName": "Claude / ChatGPT Overlap & Seats Minimums",
+          "currentPlanName": "Projected SaaS Teams (Lite Estimate)",
+          "currentSeats": 3,
+          "currentSpend": 150,
+          "recommendedPlanId": "optimized",
+          "recommendedPlanName": "Streamlined Accounts",
+          "recommendedSeats": 3,
+          "recommendedSpend": 102,
+          "savingsMonthly": 48,
+          "savingsAnnual": 576,
+          "reason": "Startup groups regularly fall into 5-seat minimum traps on Claude Team or 2-seat minimums on ChatGPT. Transitioning to individual licenses prevents you from paying for ghost seats.",
+          "isOptimal": false
+        },
+        {
+          "toolId": "openai_api",
+          "toolName": "Direct Foundation Model APIs (Volume Arbitrage)",
+          "currentPlanName": "Projected Token Volumes (Lite Estimate)",
+          "currentSeats": 3,
+          "currentSpend": 150,
+          "recommendedPlanId": "optimized",
+          "recommendedPlanName": "Credex Bulk credits",
+          "recommendedSeats": 3,
+          "recommendedSpend": 118,
+          "savingsMonthly": 32,
+          "savingsAnnual": 384,
+          "reason": "Direct token consumption at retail pricing lacks enterprise volume rates. Transacting tokens with secondary pre-funded credits via Credex reduces monthly API outlays by 25%.",
+          "isOptimal": false
+        }
+      ],
+      "totalCurrentSpend": 500,
+      "totalRecommendedSpend": 340,
+      "totalSavingsMonthly": 160,
+      "totalSavingsAnnual": 1920,
+      "createdAt": "2026-05-25T09:53:57.440Z",
+      "isShared": false,
+      "leadCaptured": false,
+      "isLite": true,
+      "estimatedTotalSpend": 500,
+      "benchmark": {
+        "userSpendPerSeat": 167,
+        "industryAveragePerSeat": 57,
+        "percentComparison": 193,
+        "comparisonStatus": "above"
+      },
+      "cfoSummary": "Our financial diagnostic of T reveals clear overspending of $160/mo across your core stack, particularly within GitHub Copilot / Cursor Redundancies and Claude / ChatGPT Overlap & Seats Minimums and Direct Foundation Model APIs (Volume Arbitrage). By downsizing inactive seats, eliminating duplicate developer accounts, and addressing minimum-seat traps, you can scale back recurring software costs immediately. Standardizing your models and migrating your raw monthly API spend of $150/mo into pre-purchased Credex bulk credit packages instantly shaves 25% off your usage bills with no code changes. This captures a total of $1920/year back into your operational margins."
+    }
+  },
+  "leads": [
+    {
+      "id": "lcnpxvlel",
+      "reportId": "aj3tw21l5",
+      "email": "soulhackersahil@gmail.com",
+      "companyName": "Anonymous Startup",
+      "role": "CFO",
+      "teamSize": 3,
+      "timestamp": "2026-05-25T09:53:22.707Z"
+    }
+  ]
+}
